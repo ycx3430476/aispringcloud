@@ -1,0 +1,15 @@
+package com.southwind;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author yuchenxi
+ * @create 2020-12-09-15:48
+ */
+@SpringBootApplication
+public class NativeConfigClientApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(NativeConfigClientApplication.class, args);
+    }
+}
