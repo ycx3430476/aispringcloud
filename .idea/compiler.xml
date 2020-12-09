@@ -8,11 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hystrix" />
-        <module name="zipkin" />
         <module name="ribbon" />
         <module name="zuul" />
         <module name="nativeconfigclient" />
         <module name="configserver" />
+        <module name="zipkinserver" />
         <module name="eurekaserver" />
         <module name="configclient" />
         <module name="zipkinclient" />
@@ -37,8 +37,8 @@
       <module name="nativeconfigclient" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
       <module name="ribbon" options="-parameters" />
-      <module name="zipkin" options="-parameters" />
       <module name="zipkinclient" options="-parameters" />
+      <module name="zipkinserver" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>
